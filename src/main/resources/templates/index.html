@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+<title>DEMO</title>
+
+<!-- CSS  -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+<link href="css/materialize.css" type="text/css" rel="stylesheet"
+	media="screen,projection" />
+<link href="css/style.css" type="text/css" rel="stylesheet"
+	media="screen,projection" />
+</head>
+<body>
+	<nav class="light-blue lighten-1" role="navigation">
+		<div class="nav-wrapper container">
+		</div>
+	</nav>
+	<div class="section no-pad-bot" id="index-banner">
+		<div class="container">
+			<br> <br>
+			<div class="row">
+				<div class="col s6">
+					<h4 class="header center orange-text" th:text="#{titulo}"></h4>
+				</div>
+				<div class="col s6">
+					<div class="input-field col s6">
+						<select id="slcIdioma" onchange="cambiarIdioma()">
+							<option value="" disabled selected th:text="#{lang.placeholder}"></option>
+							<option value="es" th:text="#{lang.es}"></option>
+							<option value="en" th:text="#{lang.en}"></option>
+						</select> <label th:text="#{lang.change}"></label>
+					</div>
+				</div>
+			</div>
+			<div>
+				<table class="striped centered">
+					<thead>
+						<tr>
+							<th hidden>ID</th>
+							<th th:text="#{tabla.nombre}"></th>
+							<th th:text="#{tabla.marca}"></th>
+							<th th:text="#{tabla.origen}"></th>
+							<th th:text="#{tabla.precio}"></th>
+							<th th:text="#{tabla.acciones}"></th>
+						</tr>
+					</thead>
+					<tbody id="tblProductos">
+					</tbody>
+				</table>
+			</div>
+			<br> <br>
+			<div class="row center">
+				<div class="col s3">
+					<a class="waves-effect waves-light btn modal-trigger"
+						href="#modal2" onclick="" id="btnMarca" th:text="#{boton.marca}"></a>
+				</div>
+				<div class="col s3">
+					<a class="waves-effect waves-light btn modal-trigger"
+						href="#modal3" onclick="" id="btnPrecio" th:text="#{boton.precio}"></a>
+				</div>
+				<div class="col s3">
+					<!-- <a href="#modal1" class="btn-floating btn-large waves-effect waves-light modal-trigger center" onclick="limpiarModal()"><i class="material-icons">add</i></a> -->
+					<a class="waves-effect waves-light btn modal-trigger"
+						href="#modal1" onclick="limpiarModal()" th:text="#{boton.agregar}"></a>
+				</div>
+				<div class="col s3">
+					<a class="waves-effect waves-light btn" onclick="listarProducto()" th:text="#{boton.listar}"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal Structure -->
+	<div id="modal1" class="modal">
+		<div class="modal-content">
+			<h4 th:text="#{titulo.producto}"></h4>
+			<div class="row">
+				<form class="col s12" id="productoForm">
+					<div class="row" hidden>
+						<div class="input-field col s12">
+							<input id="idProducto" type="text" class="validate"> <label
+								for="first_name">id</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="nombreProducto" type="text" class="validate"
+								maxlength="45"> <label class="active"
+								for="nombreProducto" th:text="#{etiqueta.nombre}"></label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="marcaProducto" type="text" class="validate"
+								maxlength="45"> <label class="active"
+								for="marcaProducto" th:text="#{etiqueta.marca}"></label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="origenProducto" type="text" class="validate"
+								maxlength="45"> <label class="active"
+								for="origenProducto" th:text="#{etiqueta.origen}"></label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="precioProducto" type="number" step="0.01" min="0.01"
+								class="validate"> <label class="active"
+								for="precioProducto" th:text="#{etiqueta.precio}"></label>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<a class="modal-close waves-effect waves-light btn red left"
+				id="btnCerrarModal" th:text="#{boton.cerrar}"></a> <a
+				class="waves-effect waves-green btn green right"
+				onclick="guardarProducto()" th:text="#{boton.guardar}"></a>
+		</div>
+	</div>
+
+	<div id="modal2" class="modal">
+		<div class="modal-content">
+			<h4 th:text="#{titulo.marca}"></h4>
+			<div class="row">
+				<div class="input-field  col s12">
+					<input placeholder="Hyundai" id="txtMarca" type="text"
+						class="validate" maxlength="45"> <label for="txtMarca"
+						class="active" th:text="#{etiqueta.marca}"></label>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<a class="modal-close waves-effect waves-light btn red left"
+				id="btnCerrarModalMarca" th:text="#{boton.cerrar}"></a> <a
+				class="waves-effect waves-green btn green right"
+				onclick="marcaProducto()" th:text="#{boton.guardar}"></a>
+		</div>
+	</div>
+
+	<div id="modal3" class="modal">
+		<div class="modal-content">
+			<h4 th:text="#{titulo.precio}"></h4>
+			<div class="row">
+				<div class="input-field col s12">
+					<input placeholder="100.50" id="txtNumber" type="number"
+						step="0.01" min="0.01" class="validate"> <label
+						for="txtNumber" class="active" th:text="#{etiqueta.precio}"></label>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<a class="modal-close waves-effect waves-light btn red left"
+				id="btnCerrarModalPrecio" th:text="#{boton.cerrar}"></a> <a
+				class="waves-effect waves-green btn green right"
+				onclick="precioProducto()" th:text="#{boton.guardar}"></a>
+		</div>
+	</div>
+	<!--  Scripts-->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.js"></script>
+	<script src="js/init.js"></script>
+	<script src="js/index.js"></script>
+
+</body>
+</html>

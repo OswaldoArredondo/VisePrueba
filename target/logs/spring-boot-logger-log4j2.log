@@ -1,0 +1,85 @@
+2023-04-06 05:28:51,114 INFO o.s.b.StartupInfoLogger [main] Starting AppMain v0.0.1-SNAPSHOT on DESKTOP-RCN51SL with PID 21892 (C:\Users\1\Documents\PRUEBA\target\productos-0.0.1-SNAPSHOT.jar started by 1 in C:\Users\1\Documents\PRUEBA\target)
+2023-04-06 05:28:51,127 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2023-04-06 05:28:51,129 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2023-04-06 05:28:57,653 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-06 05:28:58,244 INFO o.s.b.StartupInfoLogger [main] Started AppMain in 7.467 seconds (JVM running for 8.452)
+2023-04-06 05:29:11,095 INFO c.v.ProductoController [http-nio-8080-exec-2] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:29:11,414 INFO c.v.ProductoController [http-nio-8080-exec-2] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:29:15,417 INFO c.v.ProductoController [http-nio-8080-exec-10] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:29:15,424 INFO c.v.ProductoController [http-nio-8080-exec-10] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:29:33,699 INFO c.v.ProductoController [http-nio-8080-exec-9] Inicia Proceso de Borrado de Producto
+2023-04-06 05:29:33,734 INFO c.v.ProductoController [http-nio-8080-exec-9] Finaliza Proceso de Borrado de Producto
+2023-04-06 05:29:33,754 INFO c.v.ProductoController [http-nio-8080-exec-1] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:29:33,759 INFO c.v.ProductoController [http-nio-8080-exec-1] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:29:34,081 INFO c.v.ProductoController [http-nio-8080-exec-8] Inicia Proceso de Borrado de Producto
+2023-04-06 05:29:34,100 INFO c.v.ProductoController [http-nio-8080-exec-8] Finaliza Proceso de Borrado de Producto
+2023-04-06 05:29:34,113 INFO c.v.ProductoController [http-nio-8080-exec-6] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:29:34,120 INFO c.v.ProductoController [http-nio-8080-exec-6] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:29:34,257 INFO c.v.ProductoController [http-nio-8080-exec-2] Inicia Proceso de Borrado de Producto
+2023-04-06 05:29:34,264 INFO c.v.ProductoController [http-nio-8080-exec-2] Finaliza Proceso de Borrado de Producto
+2023-04-06 05:29:34,280 INFO c.v.ProductoController [http-nio-8080-exec-10] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:29:34,286 INFO c.v.ProductoController [http-nio-8080-exec-10] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:29:34,433 INFO c.v.ProductoController [http-nio-8080-exec-4] Inicia Proceso de Borrado de Producto
+2023-04-06 05:29:34,440 INFO c.v.ProductoController [http-nio-8080-exec-4] Finaliza Proceso de Borrado de Producto
+2023-04-06 05:29:34,453 INFO c.v.ProductoController [http-nio-8080-exec-5] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:29:34,456 INFO c.v.ProductoController [http-nio-8080-exec-5] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:29:34,907 INFO c.v.ProductoController [http-nio-8080-exec-1] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:29:34,910 INFO c.v.ProductoController [http-nio-8080-exec-1] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:29:54,079 INFO c.v.ProductoController [http-nio-8080-exec-8] Inicia Proceso de Obtencion de Productos Por Precio
+2023-04-06 05:29:54,109 INFO c.v.ProductoController [http-nio-8080-exec-8] Finaliza Proceso de Obtencion de Productos Por Precio
+2023-04-06 05:30:42,642 INFO c.v.ProductoController [http-nio-8080-exec-7] Inicia Proceso de Guardado de Nuevo Producto
+2023-04-06 05:30:42,675 INFO c.v.ProductoController [http-nio-8080-exec-7] Finaliza Proceso de Guardado de Nuevo Producto
+2023-04-06 05:30:42,688 INFO c.v.ProductoController [http-nio-8080-exec-4] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:30:42,693 INFO c.v.ProductoController [http-nio-8080-exec-4] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:31:29,229 INFO c.v.ProductoController [http-nio-8080-exec-9] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:31:29,237 INFO c.v.ProductoController [http-nio-8080-exec-9] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:31:37,544 INFO c.v.ProductoController [http-nio-8080-exec-5] Inicia Proceso de Borrado de Producto
+2023-04-06 05:31:37,550 INFO c.v.ProductoController [http-nio-8080-exec-5] Finaliza Proceso de Borrado de Producto
+2023-04-06 05:31:37,559 INFO c.v.ProductoController [http-nio-8080-exec-8] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:31:37,564 INFO c.v.ProductoController [http-nio-8080-exec-8] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:31:45,520 INFO c.v.ProductoController [http-nio-8080-exec-3] Inicia Proceso de Guardado de Nuevo Producto
+2023-04-06 05:31:45,537 INFO c.v.ProductoController [http-nio-8080-exec-3] Finaliza Proceso de Guardado de Nuevo Producto
+2023-04-06 05:31:45,549 INFO c.v.ProductoController [http-nio-8080-exec-2] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:31:45,555 INFO c.v.ProductoController [http-nio-8080-exec-2] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:31:48,485 INFO c.v.ProductoController [http-nio-8080-exec-7] Inicia Proceso de Borrado de Producto
+2023-04-06 05:31:48,502 INFO c.v.ProductoController [http-nio-8080-exec-7] Finaliza Proceso de Borrado de Producto
+2023-04-06 05:31:48,511 INFO c.v.ProductoController [http-nio-8080-exec-4] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:31:48,515 INFO c.v.ProductoController [http-nio-8080-exec-4] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:32:04,531 INFO c.v.ProductoController [http-nio-8080-exec-9] Inicia Proceso de Obtencion de Productos Por Precio
+2023-04-06 05:32:04,537 INFO c.v.ProductoController [http-nio-8080-exec-9] Finaliza Proceso de Obtencion de Productos Por Precio
+2023-04-06 05:32:17,847 INFO c.v.ProductoController [http-nio-8080-exec-5] Inicia Proceso de Obtencion de Productos Por Precio
+2023-04-06 05:32:17,851 INFO c.v.ProductoController [http-nio-8080-exec-5] Finaliza Proceso de Obtencion de Productos Por Precio
+2023-04-06 05:32:26,683 INFO c.v.ProductoController [http-nio-8080-exec-1] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:32:26,686 INFO c.v.ProductoController [http-nio-8080-exec-1] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:32:34,478 INFO c.v.ProductoController [http-nio-8080-exec-4] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:32:34,483 INFO c.v.ProductoController [http-nio-8080-exec-4] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:32:35,962 INFO c.v.ProductoController [http-nio-8080-exec-1] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:32:35,968 INFO c.v.ProductoController [http-nio-8080-exec-1] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:32:37,451 INFO c.v.ProductoController [http-nio-8080-exec-7] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:32:37,458 INFO c.v.ProductoController [http-nio-8080-exec-7] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:32:38,814 INFO c.v.ProductoController [http-nio-8080-exec-3] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:32:38,819 INFO c.v.ProductoController [http-nio-8080-exec-3] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:32:40,113 INFO c.v.ProductoController [http-nio-8080-exec-10] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:32:40,118 INFO c.v.ProductoController [http-nio-8080-exec-10] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:32:47,679 INFO c.v.ProductoController [http-nio-8080-exec-4] Inicia Proceso de Obtencion de Productos Por Marca
+2023-04-06 05:32:47,686 INFO c.v.ProductoController [http-nio-8080-exec-4] Finaliza Proceso de Obtencion de Productos Por Marca
+2023-04-06 05:32:50,371 INFO c.v.ProductoController [http-nio-8080-exec-9] Inicia Proceso de Busqueda de Producto a Editar
+2023-04-06 05:32:50,376 INFO c.v.ProductoController [http-nio-8080-exec-9] Inicia Proceso de Busqueda de Producto a Editar
+2023-04-06 05:32:54,204 INFO c.v.ProductoController [http-nio-8080-exec-5] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:32:54,209 INFO c.v.ProductoController [http-nio-8080-exec-5] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:39:36,447 INFO c.v.ProductoController [http-nio-8080-exec-3] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:39:36,453 INFO c.v.ProductoController [http-nio-8080-exec-3] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:39:43,517 INFO c.v.ProductoController [http-nio-8080-exec-2] Inicia Proceso de Borrado de Producto
+2023-04-06 05:39:43,534 INFO c.v.ProductoController [http-nio-8080-exec-2] Finaliza Proceso de Borrado de Producto
+2023-04-06 05:39:43,543 INFO c.v.ProductoController [http-nio-8080-exec-4] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:39:43,549 INFO c.v.ProductoController [http-nio-8080-exec-4] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:41:07,827 INFO c.v.ProductoController [http-nio-8080-exec-2] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:41:07,831 INFO c.v.ProductoController [http-nio-8080-exec-2] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:41:09,303 INFO c.v.ProductoController [http-nio-8080-exec-9] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:41:09,309 INFO c.v.ProductoController [http-nio-8080-exec-9] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:41:28,110 INFO c.v.ProductoController [http-nio-8080-exec-5] Inicia Proceso de Busqueda de Producto a Editar
+2023-04-06 05:41:28,115 INFO c.v.ProductoController [http-nio-8080-exec-5] Inicia Proceso de Busqueda de Producto a Editar
+2023-04-06 05:41:38,615 INFO c.v.ProductoController [http-nio-8080-exec-8] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:41:38,620 INFO c.v.ProductoController [http-nio-8080-exec-8] Finaliza Proceso de Obtencion de Productos
+2023-04-06 05:41:45,666 INFO c.v.ProductoController [http-nio-8080-exec-1] Inicia Proceso de Obtencion de Productos
+2023-04-06 05:41:45,672 INFO c.v.ProductoController [http-nio-8080-exec-1] Finaliza Proceso de Obtencion de Productos

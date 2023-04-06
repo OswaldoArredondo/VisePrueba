@@ -1,0 +1,7 @@
+com\vise\MessageConfig.class
+com\vise\AppMain.class
+com\vise\dto\ProductoDTO.class
+com\vise\Producto.class
+com\vise\ProductoService.class
+com\vise\ProductoController.class
+com\vise\ProductoRepository.class
